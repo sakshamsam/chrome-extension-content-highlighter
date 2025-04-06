@@ -1,0 +1,23 @@
+/* Styles for the highlighted content */
+
+/*.smart-highlight {
+  position: relative;
+  display: inline;
+}*/
+
+.smart-highlight {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+
+.smart-highlight-active {
+  background-color: #ffff00;
+  background-color: var(--highlight-color, #ffff00);
+  opacity: 0.5;
+  opacity: var(--highlight-opacity, 0.5);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
